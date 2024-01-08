@@ -1,5 +1,6 @@
 // Creo una variabile per il titolo
 const Passwordwritten = document.getElementById("main-title");
+const yearNumber = 24;
 
 // # Step 1
 const userName = prompt(
@@ -23,7 +24,7 @@ const userColor = prompt(
 console.log(userColor);
 
 // # Step 4
-const userPassword = userName + userSurname + userColor + 24;
+const userPassword = userName + userSurname + userColor + yearNumber;
 console.log(userPassword);
 alert(userPassword);
 Passwordwritten.innerText = userPassword;
