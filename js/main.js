@@ -1,6 +1,6 @@
 // Creo una variabile per il titolo
 const Passwordwritten = document.getElementById("main-title");
-const yearNumber = 24;
+const yearNumber = "24";
 
 // # Step 1
 const userName = prompt(
